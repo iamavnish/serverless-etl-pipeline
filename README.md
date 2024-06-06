@@ -23,8 +23,7 @@ This is Proof of Concept for Serverless ETL Pipeline on AWS.
 
 ## Dataset
 
-CSV file containing stock market data -
-https://github.com/iamavnish/stock-market-data-analysis/blob/main/indexProcessed.csv
+Spotify API - Top 50 Songs Globally
 
 ## Solution
 
