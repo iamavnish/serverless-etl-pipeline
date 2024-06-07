@@ -9,17 +9,17 @@
 - Assign an IAM role to lambda function so that it can read / write to S3 bucket.
 - Set environment variables (client_id and client_secret) to authenticate with Spotify API.
 - Make spotipy package available to lambda function by adding a Layer (compressed archive of python packages).
-- Add a trigger to run lambda function everyday through CloudWatch Events (Event Bridge).
+- Add a trigger to run lambda function once everyday through CloudWatch Events (Event Bridge).
 
 - Create a lambda function named as spotifyTransformationLoadFunction with runtime as Python 3.xx
 - Set the timeout to 1m 3s.
 - Assign an IAM role to lambda function so that it can read / write to S3 bucket.
 - Make pandas package available to lambda function by adding a Layer.
-- Add a trigger to run lambda function whenever a file is added to S3 bucket spotify_etl_avnish in the folder raw_data/to_be_processed.
+- Add a trigger to run lambda function whenever a file is added to S3 bucket (spotify_etl_avnish) in the folder raw_data/to_be_processed.
 
 - Create 3 Glue Crawlers to infer schema from files stored in folders of S3 bucket (transformed_data)
   spotify_album_crawler, spotify_artist_crawler, spotify_song_crawler
-- Crawlers should have appropriate IAM role to read from S3 buckets.
+- Crawlers should have appropriate IAM role to read from S3 bucket.
 - Run the 3 crawlers.
 - Check the metadata of tables in Glue Data Catalog if schema is correctly inferred or not.
   If not then update the schema manually.
