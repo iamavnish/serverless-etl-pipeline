@@ -6,7 +6,7 @@ This is Proof of Concept for Serverless ETL Pipeline on AWS.
 
 ## Architecture
 
-![Architecture](https://github.com/iamavnish/stock-market-data-analysis/assets/13760927/5ba38201-3c3e-4fbd-8ff1-c5f9da943146)
+![Architecture] https://github.com/iamavnish/serverless-etl-pipeline/blob/main/serverless-etl-pipeline.drawio.png
 
 ## Tech Stack
 
