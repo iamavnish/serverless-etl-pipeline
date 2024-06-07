@@ -27,4 +27,4 @@ Top 50 Songs Globally on Spotify accessed through Spotify API
 
 ## Solution
 
-Stock market events are being sent to Kafka Producer application which in turn writes them to Kafka topic. Kafka Consumer application reads those events from Kafka topic which are further written to files in S3 bucket. Glue Crawler determines the schema of data stored in S3 bucket and creates metadata in Glue Catalog. Then data from files stored in S3 bucket is being queried for insights through Athena.
+Lambda function is triggered once a day through CloudWatch Events which extracts data for top 50 global songs on Spotify through Spotify API and stores in S3 bucket. Another Lambda function gets triggered whenever a new file is added to S3 bucket. Stock market events are being sent to Kafka Producer application which in turn writes them to Kafka topic. Kafka Consumer application reads those events from Kafka topic which are further written to files in S3 bucket. Glue Crawler determines the schema of data stored in S3 bucket and creates metadata in Glue Catalog. Then data from files stored in S3 bucket is being queried for insights through Athena.
