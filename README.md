@@ -8,6 +8,9 @@ This is Proof of Concept for Serverless ETL Pipeline on AWS.
 
 ![serverless-etl-pipeline drawio](https://github.com/iamavnish/serverless-etl-pipeline/assets/13760927/16fb7b59-ccf2-4874-82ae-1f3666f9666b)
 
+![serverless-etl-pipeline drawio](https://github.com/iamavnish/serverless-etl-pipeline/assets/13760927/dc4b75e2-ac85-49ca-bc1b-2a912bfcf71b)
+
+
 ## Tech Stack
 
 - AWS
