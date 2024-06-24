@@ -16,6 +16,7 @@ This is Proof of Concept for Serverless ETL Pipeline on AWS.
   - Glue Crawler
   - Glue Catalog
   - Athena
+  - QuickSight
   - IAM
   - CloudWatch Events (EventBridge)
   - CloudWatch Logs
